@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "i3Kgc8mE6H2l2xd4Ylx0Ra9YqdSQI3btdFU21Qx/Gjq9IHo/obEpHPWYyTNkUUDhPAfGhZFgDI6TZOOPLfj+4w==",
+  "dgSpecHash": "PGrLPVk7lCqcQ3L0Colopa3FlT4xmTiZ/tzGu/rpfxYp0I6hC4tQ0x1+p5DwFwlV9JyfZo3YmiCJ8QANTdd/fg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ilias\\RiderProjects\\mappy\\MAPPY_Backend\\MemberService.Api\\MemberService.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Ilias\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
+    "C:\\Users\\Ilias\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
+    "C:\\Users\\Ilias\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.5.0\\microsoft.testplatform.objectmodel.17.5.0.nupkg.sha512",
+    "C:\\Users\\Ilias\\.nuget\\packages\\microsoft.testplatform.testhost\\17.5.0\\microsoft.testplatform.testhost.17.5.0.nupkg.sha512",
+    "C:\\Users\\Ilias\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Ilias\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\Ilias\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
   "logs": []
 }
