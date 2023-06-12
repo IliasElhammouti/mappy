@@ -24,7 +24,7 @@ public class CommunityDbContext: DbContext
             .AddJsonFile("appsettings.json")
             .Build();
         
-        var connectionString = configuration.GetConnectionString("logDb");
+        var connectionString = configuration.GetConnectionString("memberDb");
 
         optionsBuilder.UseSqlServer(connectionString);
     }
