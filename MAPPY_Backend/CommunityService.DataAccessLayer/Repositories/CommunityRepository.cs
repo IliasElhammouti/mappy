@@ -14,14 +14,14 @@ public class CommunityRepository: ICommunityRepository
         _communityDbContext = communityDbContext;
     }
     
-    public Task<Collection<Community>> GetAll()
+    public async Task<Collection<Community>> GetAll()
     {
-        return Task.FromResult(new Collection<Community>(_communityDbContext.Communities.ToList()));
+        return await Task.FromResult(new Collection<Community>(_communityDbContext.Communities.ToList()));
     }
 
-    public Task<Community?> ById(Guid id)
+    public async Task<Community?> ById(Guid id)
     {
-        return Task.FromResult(_communityDbContext.Communities.FirstOrDefault(m => m.Id == id));
+        return await Task.FromResult(_communityDbContext.Communities.FirstOrDefault(m => m.Id == id));
     }
 
     public async Task New(Community community)

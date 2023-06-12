@@ -14,14 +14,14 @@ public class MemberRepository : IMemberRepository
         _memberDbContext = memberDbContext;
     }
 
-    public Task<Collection<Member>> GetAll()
+    public async Task<Collection<Member>> GetAll()
     {
-        return Task.FromResult(new Collection<Member>(_memberDbContext.Members.ToList()));
+        return await Task.FromResult(new Collection<Member>(_memberDbContext.Members.ToList()));
     }
 
-    public Task<Member?> ById(Guid id)
+    public async Task<Member?> ById(Guid id)
     {
-        return Task.FromResult(_memberDbContext.Members.FirstOrDefault(m => m.Id == id));
+        return await Task.FromResult(_memberDbContext.Members.FirstOrDefault(m => m.Id == id));
     }
 
     public async Task New(Member member)

@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityService.Api", "Com
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityService.DataAccessLayer", "CommunityService.DataAccessLayer\CommunityService.DataAccessLayer.csproj", "{D5558852-5EE8-47E0-90F3-43A1C0924C20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityService.Core.Api", "CommunityService.Core.Api\CommunityService.Core.Api.csproj", "{0D0823AE-1E75-4AF0-AF73-145C0C863000}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{D5558852-5EE8-47E0-90F3-43A1C0924C20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5558852-5EE8-47E0-90F3-43A1C0924C20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5558852-5EE8-47E0-90F3-43A1C0924C20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D0823AE-1E75-4AF0-AF73-145C0C863000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D0823AE-1E75-4AF0-AF73-145C0C863000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D0823AE-1E75-4AF0-AF73-145C0C863000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D0823AE-1E75-4AF0-AF73-145C0C863000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DCD67997-198E-484D-958D-0FBBC039328B} = {B1BB03AA-3ED7-45F0-B7BA-D8FFF1AA43B6}
@@ -58,5 +64,6 @@ Global
 		{D31F87A2-B6B5-4BE6-83BD-448D1147E497} = {0123A6AC-6C4A-428E-9C76-7CF6ED232FA3}
 		{7F913954-E312-48F4-8E3B-C13B88A17218} = {D31F87A2-B6B5-4BE6-83BD-448D1147E497}
 		{D5558852-5EE8-47E0-90F3-43A1C0924C20} = {D31F87A2-B6B5-4BE6-83BD-448D1147E497}
+		{0D0823AE-1E75-4AF0-AF73-145C0C863000} = {D31F87A2-B6B5-4BE6-83BD-448D1147E497}
 	EndGlobalSection
 EndGlobal

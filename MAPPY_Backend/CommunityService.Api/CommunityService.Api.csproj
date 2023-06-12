@@ -28,7 +28,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers\" />
+      <ProjectReference Include="..\CommunityService.Core.Api\CommunityService.Core.Api.csproj" />
     </ItemGroup>
 
 </Project>
