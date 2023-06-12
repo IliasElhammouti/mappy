@@ -50,6 +50,15 @@ public class MemberController: ControllerBase
     [ProducesResponseType(typeof(Member), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> Update(Member member)
+    {
+        return Ok(await _memberService.Update(member));
+    }
+    
+    [HttpDelete]
+    [ProducesResponseType(typeof(Member), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Delete(Member member)
     {
         return Ok(await _memberService.Delete(member));

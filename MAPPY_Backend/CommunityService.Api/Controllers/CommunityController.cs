@@ -49,6 +49,15 @@ public class CommunityController: ControllerBase
     [ProducesResponseType(typeof(Community), StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> Update(Community community)
+    {
+        return Ok(await _communityService.Update(community));
+    }
+    
+    [HttpDelete]
+    [ProducesResponseType(typeof(Community), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
     public async Task<IActionResult> Delete(Community community)
     {
         return Ok(await _communityService.Delete(community));
